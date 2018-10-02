@@ -80,3 +80,21 @@ a {
 	display: flex;
 	justify-content: center;
 }
+
+#pricing {
+	margin: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.euphonium, .tuba, .plastic-tuba {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-style: solid;
+	border-color: black;
+	border-size: 1px;
+	margin: 10px;
+	padding: 20px;
+}
